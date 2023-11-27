@@ -1,0 +1,60 @@
+@media (max-width:998.98px) {
+    .logo-text{font-size:15px;}
+    .f-60 {font-size: 29px;}
+    .early-injury-div{
+        white-space: nowrap;
+        vertical-align: top;
+        overflow: auto;
+        width: 100%;
+        padding:0px 10px;
+        display: inline-block !important;
+    } 
+    .width-Early{
+        font-size: 14px;
+    }
+    .width-Early{
+        width:100% !important;
+    }
+    .early-injury-inner{
+        white-space: normal;
+        width: 58%;
+        float: none;
+        display: inline-block;
+    }
+    .early-injury-div::-webkit-scrollbar{ display: none;}
+    .early-injury-inner img {max-width: 79%;}    
+    .ei-innerdiv a{font-size: 14px;}
+    .overviewBlk h5:before{ left: -37px;}
+    .overviewBlk h5 {font-size: 17px;}
+    .navbar-toggler-icon{
+        filter: brightness(0) invert(1);
+    }
+    .navbar-toggler:focus{box-shadow: none;}
+    .border-end.border-1{border-right: none !important;}
+    .navbar-nav{text-align: center;}
+    .navbar-collapse.collapse.show{
+        position: absolute;
+        top: 100%;
+        background: #000000;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 998.89px) and (min-width: 767px)  {
+    .early-injury-inner{
+        width: 28%;
+    } 
+}
+@keyframes lineUp {
+    0% {text-underline-offset: 5px;}
+    100% {
+      text-underline-offset: 2px;
+      -webkit-text-decoration-color: #fff;
+        text-decoration-color: #fff;
+      text-decoration-thickness: 2px;
+    }
+  }
+  @-webkit-keyframes lineDown {
+    0% {text-underline-offset: 2px;}
+    100% {text-underline-offset: 7px;}
+  }

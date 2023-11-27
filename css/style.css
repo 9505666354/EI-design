@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{max-width: 100%;}
+.logo{width: 68px; filter: brightness(0) invert(1);}
+a{text-decoration: none;}
+.f-60{font-size:60px}
+.ei-maindiv{
+    background: url(../images/banner-background.png)no-repeat;
+    background-size: cover;
+    display: flex;
+    width:100%;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+}
+.ei-innerdiv a,.ei-innerdiv span{ font-size:19px;color:#FFC526;}
+.arrow-image{height: 11px;}
+.overviewBlk h5:hover{
+    text-decoration: underline;
+}
+.text-logout{
+    font-size: 15px;
+    text-decoration: none;
+}
+.text-logout:hover{
+text-decoration: underline;
+}
+.overviewBlk h5:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -33px;
+    background: url(../images/icon_1.png) no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.width-Early{
+    width: 62%!important;
+}
+.ei-innerdiv{position: relative;}
+.ei-innerdiv a{
+    color: #FFC526;
+}
+.ei-innerdiv a:hover, .ei-innerdiv a:active{
+    color:#fff;
+}
+.card{border: 0;padding: 18px 0px;}
+.card-text {font-size: 14px;}
+.bg-grey{background: #F3F3F3;}
+.overviewBlk h5{
+    color: #0096D5;
+}
+.overviewBlk{position: relative;}
+.overviewBlk h5:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -45px;
+    background: url(../images/icon_1.png) no-repeat;
+    width: 30px;
+    height: 30px;
+}   
+.overviewBlk h5.texticon:before{
+    background: url(../images/icon_3.png) no-repeat;
+}
+.overviewBlk h5.texticon1:before{
+    background: url(../images/icon_2.png) no-repeat;
+}
+.overviewBlk h5.texticon2:before{
+    background: url(../images/icon_4.png) no-repeat;
+}
+.brdr{
+    border-left: solid 2px #cacaca !important;
+}
+.mx-0.my-0{    border-top: 1px solid;    opacity: .15;}
+.ei-innerdiv a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    -webkit-animation: lineDown 0.25s forwards;
+            animation: lineDown 0.25s forwards;
+  }
+  .ei-innerdiv a:hover, .ei-innerdiv a:focus {
+    -webkit-animation: lineDown 0.25s forwards;
+            animation: lineUp 0.25s forwards;
+  }
+  
+  .quote {
+    position: absolute;
+    width: 64px;
+    padding: 14px 2px;
+    margin: 0px auto;
+    font-size: 12px;
+    color: #000;
+    background: #fff;
+    border-radius: 100px;
+    text-align: center;
+    top: -40px;
+    right: -8%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .25s cubic-bezier(.5,0,.5,1);
+}
+
+.quote:after {
+    content:"";
+    position:absolute;
+    top:80%;
+    right:35px;
+    border-width:26px 26px 0 0;
+    border-style:solid;
+    border-color:#fff transparent;
+    /* css3 extras */
+    -webkit-transform:skewX(-15deg);
+       -moz-transform:skewX(-15deg);
+        -ms-transform:skewX(-15deg);
+         -o-transform:skewX(-15deg);
+            transform:skewX(-15deg);
+}
+.early-injury-inner:hover   .quote {
+    opacity: 1;
+    visibility: visible;
+}
